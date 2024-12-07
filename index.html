@@ -52,16 +52,21 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="first">
+      <section class="first hidden">
         <div class="container">
           <h1 class="first-title">Effective Solutions for Your Business</h1>
           <button type="button" class="f-button">Order Service</button>
         </div>
       </section>
-      <section class="second">
+      <section class="second hidden">
         <div class="container">
           <h2 class="visually-hidden">Information</h2>
           <ul class="wrapper-inf">
@@ -116,7 +121,7 @@
           </ul>
         </div>
       </section>
-      <section class="third">
+      <section class="third hidden">
         <div class="container">
           <h2 class="big-title">Our Team</h2>
           <ul class="wrapper-inf">
@@ -271,7 +276,7 @@
           </ul>
         </div>
       </section>
-      <section class="fourth">
+      <section class="fourth hidden">
         <div class="container">
           <h2 class="big-title">Our Portfolio</h2>
           <ul class="wrapper-four">
@@ -393,7 +398,7 @@
         </div>
       </section>
     </main>
-    <footer class="last">
+    <footer class="last hidden">
       <div class="container footer-cont">
         <div class="firstlast-con">
           <a href="./index.html" class="logo-two">
@@ -460,8 +465,8 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
-      <div class="modal">
+    <div class="backdrop is-open hidden">
+      <div class="modal hidden">
         <button type="button" class="close-btn">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
