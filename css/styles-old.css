@@ -107,9 +107,7 @@ body {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    display: inline-flex;
-    
-    
+    display: inline-flex;       
 }
 .list-ad {
     font-weight: 400;
